@@ -4,4 +4,10 @@ module.exports = {
     enabled: true,
     content: ["./src/**/*.{html,ts}"],
   },
+  plugin: [
+    // ...
+    require("tailwindcss"),
+    require("autoprefixer"),
+    // ...
+  ],
 };
